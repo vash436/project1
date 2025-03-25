@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,100..900&display=swap);
+:root{
+    --bg:#F5EFE6;
+    --green:#5A7554;
+    --black:#030303;
+    --white:#FFFFFF;
+
+    --inter:Inter;
+    --nunito:Nunito;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:var(--bg);
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    height: 88px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+nav img{
+    width: 169px;
+    height: 48px;
+    object-fit: contain;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+nav ul li{
+    font-family: var(--Inter);
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--green);
+    list-style: none;
+
+}
+nav button{
+    width: auto;
+    height: auto;
+    border-radius: 24px;
+    background-color: var(--green);
+    padding: 8px 16px;
+    border: none;
+    font-family: var(--Inter);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--white);
+
+}
+
+main{
+    flex:1
+
+}
+main .section-1{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+
+}
+
+.section-1 .box-1{
+    flex: 1;
+    justify-content: center;
+    padding: 0 4rem;
+    gap: 1rem;
+    display: flex;
+    /* height: 100%;
+    width: 100%; */
+    flex-direction: column;
+
+}
+.box-1 .find-inner{
+    font-family: var(--nunito);
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--black);
+}
+.find-inner-text{
+    color: var(--green);
+}
+.find-relax{
+    font-family: var(--nunito);
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--black);
+}
+.section-1 .box-1 button{
+    width: 188px;
+    height: 48px;
+    background-color: var(--green);
+    border: none;
+    border-radius: 24px;
+    font-family: var(--Inter);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--white);
+}
+.section-1 .box-2{
+   flex: 1;
+   
+}
+
+.section-1 .box-2 img{
+   width: 100%;
+   height: 100%;
+   object-position: center;
+   object-fit: contain;
+
+}
+main .section-2{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    flex-direction: column;
+    background-color: var(--white);
+}
+.find-why{
+    font-family: var(--nunito);
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.section-2 .box-3{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+
+}
+.section-2 .box-4{
+    flex: 1;
+    margin-left: 7rem;
+}
+.section-2 .box-4 img{
+    width: 100%;
+   height: 100%;
+   object-position: center;
+   object-fit: contain;
+}
+.section-2 .box-5{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+   justify-content:center;
+   margin-right: 9rem;
+   gap: 1.5rem;
+   width: 100%;
+   height: 70vh;
+}
+.box-5-inner{
+   display: flex;
+   flex-direction: row;
+   gap: 0.9rem;
+
+}
+.find-text{
+   font-family: var(--nunito);
+
+}

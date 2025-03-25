@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+       html {
+        scroll-behavior: smooth;
+       }
+       
+       section {
+        height: 100vh; 
+       }
+       .blue { background-color: #00f;}
+       .red { background-color: #f00;}
+       .green { background-color: #0f0;}
+
+       header,footer {
+        color: #fff;
+        text-align: center;
+        height: 100px;
+       
+
+       }
+       header {
+        position: sticky;
+        top: 0;
+        font-size: 5rem;
+       }
+       footer {
+        position: sticky;
+        bottom: 0;
+        background-color: #000;
+        width: 100%;
+        font-size: 3rem;
+
+       }
+       a:visited {
+        color: #fff;
+
+        }
+        .social {
+            background-color: royalblue;
+            position: fixed;
+            top: 30%;
+            left: 0;
+            z-index: 1;
+            color:#fff;
+            font-size: inherit;
+            padding: 0.7rem;
+          
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <button class="social">ctc</button>
+    <section id="one">
+        <header class="blue">Header One</header>
+        <h2>One</h2>
+    </section>
+    <section id="two">
+        <header class="red">Header Two</header>
+         <h2>Two</h2>
+    </section>
+    <section id="three">
+        <header class="green">Header Three</header>
+        <h2>Three</h2>
+    </section>
+    <footer>
+        <a href="#one">One</a>
+        <a href="#two">Two</a>
+        <a href="#three">Three</a>
+    </footer>
+</body>
+</html>

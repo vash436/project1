@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(pic.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+nav{
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(226, 15, 15, 0.012);
+
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 50px;
+    padding: 0 30px;
+    text-decoration:rgb(84, 154, 154);
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: brown;
+}
+
+nav li:hover{
+    background-color: grey;
+}
+
+nav li:first-child{
+    margin-right: auto;
+}

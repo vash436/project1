@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background-color:black;
+    
+}
+.item {
+    width: 20px;
+    height: 10px;
+    background-color: rgb(228, 228, 241);
+    border-radius: 10px;
+    color: rgb(70, 11, 11);
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+   flex-wrap: 5;
+   flex-shrink: 5;
+}
+
+#item-one{
+     align-self: flex-start;
+     margin-right: auto;
+
+}
+.container{
+    display: flex;
+    border: 20px solid rgb(31, 203, 28);
+  
+    gap: 10px;
+    height: 650px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: space-evenly;
+}

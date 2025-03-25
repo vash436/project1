@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    height: 100vh;
+    gap: 20px;
+    background-color: blue;
+    padding-right: 40px;
+    
+}
+.box-1{
+    display: flex;
+    flex: 2;
+    background-color: red;
+    justify-content: none;
+
+}
+
+.box-2{
+    display: flex;
+    flex: 2;
+    background-color: green;
+    justify-content: none;
+
+    margin-right: 500px;
+}
+.box-3{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    gap: 20px;
+}
