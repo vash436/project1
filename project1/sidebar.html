@@ -32,7 +32,7 @@
            
         }
         main {
-            flex: 1;
+            flex: 2;
             display: flex;
         }
 
@@ -48,7 +48,7 @@
             background-color: green;
             margin-right: 40px;
         }
-        .container{
+        main .container{
             display: flex;
             background-color: yellow;
             flex: 1;
@@ -63,7 +63,7 @@
             border: none;
             border-radius: 50%;
             padding: 0 0px;
-            
+         
         }
         nav ul{
             width: 100%;
@@ -112,29 +112,29 @@
         }
         .sidebar li{
             width: 100%;
-
         }
+        .menu-button{
+            display: none;
+        }    
     
 
         @media(max-width: 800px){
             .hideOnmobile{
                 display: none;
             }
+            
         }
-        .menu-button{
-            display: flex;
-        }
+        
         @media(max-width: 400px){
             .sidebar{
                 width: 100%;
             }
+            .menu-button{
+                display: block;
         }
-        .menu-button{
-            display: none;
-        }    
-        .menu-button{
-            display: flex;
         }
+        
+        
         
 
         
